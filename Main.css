@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500&display=swap');
+
+/*{
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+    width: 100%;
+}
+.header {
+    width: 85%;
+    margin: auto;
+}
+.header .nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+.nav li {
+    list-style: none;
+    padding: 1rem;
+}
+.nav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: right;
+}
+.logo{
+    flex: 1;
+    font-size: 2.5rem;
+    user-select: none;
+    color: #FF5678;
+    font-weight: 800;
+}
+.active {
+    background: #FF5678;
+    padding: 10px 30px;
+    border-radius: 2px;
+}
+.title-contents {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 4px;
+}
+.top {
+    flex-basis: 50%;
+}
+.info {
+    flex: 1;
+    top: 20vh;
+    position: relative;
+}
+.row {
+    width: 100%;
+}
+.image {
+    flex-basis: 50%;
+}
+.image img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+i{
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:800px) {
+    .container {
+        width: 100%;
+        border: 1px solid red;
+    }
+    .title-contents {
+        flex-basis: 100%;
+        flex-direction: column;
+     }
+     .info {
+         flex-basis: 100%;
+         top: 0;
+         margin: auto;
+     }
+} */
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body {
+}
+.navbar ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.navbar {
+}
+.navbar li {
+    padding: 1rem;
+    list-style-type:none ;
+}
+.navbar a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.911);
+}
+.navbar .logo {
+    flex: 1;
+    font-size: 29px;
+    font-weight: 900;
+    color: #FF5678;
+}
+.toggle {
+    display: none;
+}
+.check {
+    display: none;
+}
+.nav {
+ display: flex;
+}
+li .active {
+    background: #FF5678;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+}
+.main
+ {
+     width: 85%;
+     margin: auto;
+     background: #ffffff;
+ }
+.container {
+    width: 100%;
+}
+.top-content {
+    display: flex;
+}
+.info  {
+    width: 100%;
+    align-items: center;
+}
+.mess {
+   position: relative;
+   top: 20vh;
+}
+.img {
+    width: 100%;
+}
+.img img {
+    width: 100%;
+}
+.head{
+    width: 100%;
+    font-size: 33px;
+    padding-bottom: 15px;
+    font-weight: 800;
+}
+g{
+    color: #FF5678;
+    font-weight: 900;
+}
+.row {
+    display: flex;
+}
+.col-2 {
+    flex-basis: 50%;
+}
+.col-2 p {
+    font-size: 17px;
+    text-align: left;
+}
+.col-2 .img {
+    width: 90%;
+    margin: auto;
+}
+.col-2 .img img {
+    width: 100%;
+}
+.full {
+    display: flex;
+    width: 100%;
+}
+.head {
+  flex-basis: 80%;
+}
+li {
+    list-style-type: none;
+    
+}
+.icon {
+    padding-left: 10px;
+    font-size: 24px;
+}
+.social {
+    margin-top: 20px;
+}
+.social a{
+    text-decoration: none;
+    font-size: 19px;
+}
+.works{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.works .col-2 {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+.time{
+    color: #999999;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.skills .col-2 {
+    flex-basis: 30%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.171);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0px;
+    padding: 40px;
+}
+.skills .col-2  .icon{
+    color: #FF5678;
+    font-size: 39px;
+}
+.heading {
+    font-weight: 900;
+    padding: 20px 0px;
+    font-size: 1.2rem;
+}
+.linkin {
+   align-self: center;
+   height: 100%;
+}
+
+
+
+
+.portfolio {
+     display: flex;
+     flex-basis: 30%;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+.box {
+    margin: 10px;
+}
+.box .img  {
+    width: 100%;
+}
+.box .img img {
+    width: 100%;
+}
+.box1 {
+    flex-basis: 100%;
+    margin: auto;
+}
+.box1 .img {
+    height: 100%;
+}
+.par p {
+    font-size: 22px;
+    font-weight: 100;
+}
+.full .skillset{
+    flex-basis: 90%;
+}
+.skillset {
+    /* padding: 20px;
+    margin: 10px; */
+    margin: 50px 0px;
+}
+g i {
+    font-size: 70px;
+}
+.LinkIn {
+    align-self: center;
+}
+.connects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+.connect {
+    flex-basis: 60%;
+}
+.on {
+   justify-self: flex-end;
+   flex-basis: 40%;
+   
+}
+.on i {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    width: 100%;
+    background: #FF5678;
+    margin-top: 60px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width:800px) {
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+    .toggle {
+        display: block;
+        font-size: 26px;
+    }
+    .nav {
+        width: 100%;
+        text-align: center;
+        background-color: #FF5678;
+        transform-origin: top;
+        transform: scale(1,0);
+        color: white;
+        top: 10%;
+    }
+    .nav li a{
+        color: white;
+    }
+    .check:checked ~ .nav{
+        display: block;
+        transition: .4s ease 150ms;
+        transform: scale(1,1);
+    }
+    .active {
+        background: none;
+        padding: 0;
+    }
+    .container {
+        width: 100%;
+    }
+    .top-content {
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+    .top-content .mess {
+        top: 0;
+        font-size: 11px;
+    }
+    .row {
+        flex-direction: column;
+        font-size: 13px;
+    }
+    .works{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .works .col-2 {
+        text-align: center;
+    }
+    .full .head{
+        font-size: 14px;
+        color: #4D4D4D;
+    }
+    .skills {
+        width: 100%;
+    }
+    .skills .col-2 {
+        flex-basis: 100%;
+    }
+    
+.portfolio .box {
+    flex-basis: 100%;
+}
+.connect , .on {
+    flex-basis: 100%;
+    padding-top: 20px;
+}
+}
